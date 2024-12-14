@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Poiret-One;
+    src: url(PoiretOne-Regular.ttf);
+}
+
+.heading-welcome {
+    font-family: Poiret-One; font-style: italic; font-size: 80px;
+    font-variant: small-caps;
+    color: black; 
+    
+}
+
+.subheader-title {
+    font-family: 'Times New Roman', Times, serif; font-style: italic; 
+    font-variant: small-caps;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 40px; margin-top: 40px;
+}
+
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.621), rgba(255, 255, 255, 0.621)),url(images/bg-cake.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 940px;
+    background-attachment: fixed;
+    
+}
+
+.card:hover {
+transform: scale(1.25);
+}
+
+.card {
+    margin: 30px;
+    transition-duration: 0.5s;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#about-us {
+    font-family: Poiret-One; font-size: 23px;
+    font-weight: bold;
+
+}
+
+.cards {
+    height: 210px; width: 1000px;
+    border-radius: 10px;
+    background-color: white;
+    border: black 2PX solid;
+    font-family: 'Poiret-One'; font-size: 18px; font-weight: 100;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.container-about {
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px ;
+}
