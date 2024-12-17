@@ -1,0 +1,27 @@
+.container-contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px; padding-left: 30px; padding-right: 30px;
+    
+}
+
+.cards {
+    height: 400px; width: 1000px;
+    border-radius: 10px;
+    background-color: white;
+    border: black 2PX solid;
+    font-family: 'Poiret-One'; font-size: 18px; font-weight: 100;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.621), rgba(255, 255, 255, 0.621)),url(/main/images/bg-cake.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 940px;
+    background-attachment: fixed;
+    
+}

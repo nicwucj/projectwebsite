@@ -16,10 +16,11 @@
     font-size: 35px;
     color: black;
     margin-bottom: 40px; margin-top: 40px;
+    
 }
 
 body{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.621), rgba(255, 255, 255, 0.621)),url(images/bg-cake.webp);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.621), rgba(255, 255, 255, 0.621)),url(/main/images/bg-cake.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,3 +65,22 @@ transform: scale(1.25);
     justify-content: center;
     margin: 20px 40px ;
 }
+
+.sitemap {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+    font-size: medium; font-family: Poiret-One;
+}
+
+ul {
+    font-size: larger; font-family: Poiret-One;
+}
+
